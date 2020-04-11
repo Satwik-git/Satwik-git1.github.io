@@ -1,0 +1,39 @@
+h1{
+	
+	font-family: montserrat;
+	color: white;
+	font-size: 40px;
+	border-bottom: 2px solid #AA9999;
+	box-shadow: 2px 2px 2px #999999;
+	text-align: center;
+	height: 67px;
+}
+
+.styling{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+p{
+	text-align: center;
+	color: white;
+	font-family: 'Indie Flower'/*, cursive*/;
+	font-size: 130%;
+	border: 2px solid #999999;
+}
+body{
+	margin: 0px;
+	/*background-color:rgb(0,0,0);*/
+	background-image: url(1.jpg);
+	background-size: cover;
+}
+img{
+width: 250px;
+	height: 425px;
+	margin: 60px;
+transition: all 0.5s;
+}
+img:hover
+{
+	transform: scale(1.2); 
+}
